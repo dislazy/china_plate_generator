@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chinese-license-plate-generator"
+version = "1.0.0"
+description = "中国车牌模拟生成器 - 支持黄色、白色、黑色、新能源车牌，单层和双层车牌"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "."}]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+numpy = "^1.15"
+opencv-python = "^3.4"
+tqdm = "^4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
